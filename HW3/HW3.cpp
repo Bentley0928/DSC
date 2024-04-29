@@ -82,9 +82,6 @@ pair<long long int, long long int> dfs(int node, long long int parent) {
 void check(bool last) {
     memo.clear();
     int lengg = tree.size();
-    if(lengg == 1){
-        cout << "Maximum Value: " << D  << "\nRoot of the Path: " << "0" << "\n";
-    }
     long long int maxdistt=INT64_MIN;
     long long int chilroot;
     long long int overall_second_longest = INT64_MIN;
