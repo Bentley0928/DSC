@@ -7,7 +7,7 @@ using namespace std;
 
 int N, O, V, D;
 struct Node {
-    map<int, int> children;
+    map<int, int> children;//[clildnode, children]
 };
 
 map<int, Node> tree;
